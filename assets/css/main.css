@@ -28,7 +28,26 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+	img {
+	    max-width: 100%;
+	    max-height: 100%;
+	}
 
+	.portrait {
+	    height: 270px;
+	  width: 270px;
+
+	}
+
+	.landscape {
+		height: 160px;
+
+	}
+
+	.square {
+	    height: 75px;
+	    width: 75px;
+	}
 body {
 	line-height: 1;
 }
