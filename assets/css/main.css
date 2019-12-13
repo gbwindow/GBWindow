@@ -54,6 +54,15 @@ footer, header, hgroup, menu, nav, section {
  text-align:center;
  display:block;
 }
+.centerImage2
+{
+	padding-top: .25em;
+	padding-bottom: .25em;
+
+ text-align:center;
+ display:block;
+ width: 220px;
+}
 </style>
 body {
 	line-height: 1;
