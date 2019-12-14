@@ -56,12 +56,23 @@ footer, header, hgroup, menu, nav, section {
 }
 .centerImage2
 {
-	padding-top: .25em;
+	padding-top: .5em;
 	padding-bottom: .25em;
 
  text-align:center;
  display:block;
  width: 220px;
+} .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 </style>
 body {
@@ -2244,7 +2255,7 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #5b6ba6;
+			border-color: #2e3141;
 		}
 
 	select {
@@ -2914,7 +2925,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		white-space: nowrap;
 	}
-
+/* button selector*/
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
@@ -2954,7 +2965,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #000000;
+				background-color: rgba(255, 255, 255, 0.025);
 			}
 
 			input[type="submit"].primary:active,
@@ -3494,7 +3505,7 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 2280px) {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
