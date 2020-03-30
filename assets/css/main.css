@@ -28,17 +28,34 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+	/* alert box*/
+	.alert {
+	  padding: 20px;
+	  background-color: #FFDD33; /* Red */
+	  color: black;
+	  margin-bottom: 15px;
+		font-size: 17px;
+		text-align: center;
+	}
 
-	.cBrCommunityTheme .wrap-announcement-message {
-    display: flex;
-    width: 1200px;
-    margin: 0 auto;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-}
-img {
+	/* The close button */
+	.closebtn {
+	  margin-left: 15px;
+	  color: black;
+	  font-weight: bold;
+	  float: right;
+	  font-size: 30px;
+	  line-height: 20px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+
+	/* When moving the mouse over the close button */
+	.closebtn:hover {
+	  color: black;
+	}
+
+	img {
 	    max-width: 100%;
 	    max-height: 100%;
 	}
